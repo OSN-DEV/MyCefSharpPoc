@@ -22,5 +22,17 @@ namespace MyCefSharpPoc {
         public MainWindow() {
             InitializeComponent();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e) {
+            this.cBrowser.Address = "http://www.google.co.jp";
+        }
+
+        private void cBrowser_Drop(object sender, DragEventArgs e) {
+            e.Handled = true;
+        }
+
+        private void cBrowser_DragEnter(object sender, DragEventArgs e) {
+            
+        }
     }
 }

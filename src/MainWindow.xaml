@@ -6,10 +6,9 @@
         xmlns:local="clr-namespace:MyCefSharpPoc"
         mc:Ignorable="d"
         xmlns:cs="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
         <cs:ChromiumWebBrowser Grid.Row="0"
-                          x:Name="Browser" 
-                               Address="http://www.google.com.au" />
+                          x:Name="cBrowser" AllowDrop="True" Drop="cBrowser_Drop" DragEnter="cBrowser_DragEnter" />
     </Grid>
 </Window>
