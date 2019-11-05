@@ -32,7 +32,7 @@ x86、x64のどちらかで使用する前提なら不要。一応Any CPU対応�
 Windowsの64bit OSってXPの頃からあったような気がするのだが。そういう問題ではなんですかね、、
 ↑
 ビルドは通ったのですが、実行するとconnectionIdのパース失敗やBadImageFormatExceptionなどに遭遇しました。  
-頑張るなら https://www.valuestar.work/news/archives/38 のように色々と頑張る必要があるっぽい。ここまで頑張る必要性が思い浮かばなのかっのでx64の環境を使用することにしました。。
+頑張るなら https://www.valuestar.work/news/archives/38 のように色々と頑張る必要があるっぽい。ここまで頑張る必要性が思い浮かばなかったのでx64の環境を使用することにしました。。
 
 
 ## XAMLに配置
@@ -47,3 +47,6 @@ xmlns:cs="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
 
 のように誤字があったりするので手入力よりコピペ → 修正が望ましいかも。特に初回導入時は。。。(体験談))
 
+
+## その他
+調査不足は否めませんが、とりあえず自分の用途で求めるものが直感的に得られない気がしたのでPOCとしてはひとまずクローズします。
